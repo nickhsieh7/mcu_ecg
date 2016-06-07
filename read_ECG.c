@@ -29,7 +29,7 @@ Created by Nick Hsieh
 #include <math.h>
 //-----------------------------------------
 /* the I2C address of ADC */
-#define ACD_ADDRESS 0x48 //Check what address has the complete information up to now is only 0x48
+#define ACD_ADDRESS 0x48 //Check the I2C address on the ADC board 0x48
 //-----------------------------------------
 /* the register address of the ADC register*/
 #define ADC_REGISTER ((unsigned char)0x04) //ADC reads from 0x04
